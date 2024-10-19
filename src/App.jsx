@@ -13,7 +13,7 @@ import Watchlist from "./Watchlist"; // Import Watchlist component
 
 function App() {
   return (
-    <Router basename="/movi">  {/* Add basename here */}
+    <Router basename="/mo">  {/* Add basename here */}
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/MovieDetails" element={<><Header /><MovieDetails /><Footer /></>} />
